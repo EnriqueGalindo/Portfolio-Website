@@ -8,14 +8,22 @@ export default function CardBodyTitleSubtitleExample() {
   return (
     <Card className="aboutCardStyle">
       <CardBody className="aboutCardBodyStyle">
-        <CardTitle>Community Engagement</CardTitle>
+        <CardTitle>Education</CardTitle>
         <CardSubtitle>Last Update: December 2019</CardSubtitle>
         <p>
-            <strong>React.Indy</strong>
+            <b>Javascript Algorithms and Data Structures Certification</b>
             <br></br>
-            Talks:
+            Free Code Camp | 12/19
+        </p>
+        <p>
+            <b>Front-End Development Certification</b>
             <br></br>
-            Suspense in React
+            Kenzie Academy | 10/19
+        </p>
+        <p>
+            <b>Front-End Development Certification</b>
+            <br></br>
+            Butler University | 10/19
         </p>
         </CardBody>
     </Card>

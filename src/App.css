@@ -37,12 +37,14 @@
   justify-content: center;
   margin: auto;
   border-radius: 15px 15px 0px 0px;
+  padding-bottom: 25px;
 }
 
 #banner-container {
   display: flex;
   justify-content: flex-start;
-  width: auto
+  width: auto;
+  
 }
 
 #nameStyle {
@@ -85,4 +87,40 @@
 #jobBoxCardBodyStyle {
   background-color: #A6DBD7; 
   border-radius: 10px
+}
+
+#wholeThang {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  background-color: #787777;
+}
+#column1 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 60%;
+}
+
+#column2{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 30%; 
+}
+.aboutCardBodyStyle{
+  background-color: #A6DBD7; 
+  border-radius: 10px;
+  padding: 10px;
+}
+.aboutCardStyle {
+  margin: 10px;
+}
+.link {
+ color: grey;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  
 }

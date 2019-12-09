@@ -53,13 +53,13 @@ export default class NavExample extends React.Component {
                 Resume
               </NavLink>
             
-              <NavLink active href="#">
+              {/* <NavLink active href="#">
                 Past Topics
               </NavLink>
            
               <NavLink active href="#">
                 Current Projects
-              </NavLink>
+              </NavLink> */}
             
               <NavLink active href="#">
                 Contact
