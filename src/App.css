@@ -20,3 +20,69 @@
 .App-link {
   color: #09d3ac;
 }
+
+/* this is the beginning of the styling of the banner on the main page */
+.main-background {
+  background-color: #787777;
+  position: absolute;
+   top: 0; 
+   left: 0;
+   height: 100vh;
+   width: 100vw;
+}
+
+#banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 15px 15px 0px 0px;
+}
+
+#banner-container {
+  display: flex;
+  justify-content: flex-start;
+  width: auto
+}
+
+#nameStyle {
+  margin: auto;
+}
+
+/* this is the beginning of the styling of the body on the main page */
+#bodyStyle {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* this is the beginning of the styling of the navbar in the Navbar component */
+#navShape {
+  background-color: #F8A59E;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#navStyle {
+  display: flex !important;
+  justify-content: center !important; 
+
+}
+
+/* this is the beginning of the sytling of the about component */
+#aboutCardStyle {
+  width: 45%
+}
+
+#aboutCardBodyStyle {
+  background-color: #A6DBD7; 
+  border-radius: 10px
+}
+
+/* this is the beginning of the styling of the JobBox component */
+#jobBoxCardStyle {
+  width: 45%
+}
+
+#jobBoxCardBodyStyle {
+  background-color: #A6DBD7; 
+  border-radius: 10px
+}
