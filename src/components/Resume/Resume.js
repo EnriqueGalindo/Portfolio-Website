@@ -9,6 +9,11 @@ class Resume extends Component {
         return (
             <React.Fragment>
                 <h1>Enrique Galindo</h1>
+                <p>
+                    egalindo@protonmail.com • 
+                    <a href="https://github.com/EnriqueGalindo"> github.com/EnriqueGalindo</a> • 
+                    <a href="https://www.linkedin.com/in/enrique-galindo-5970ab159/"> EnriqueGalindo/linkedin</a>
+                </p>
 
             </React.Fragment>
         )
