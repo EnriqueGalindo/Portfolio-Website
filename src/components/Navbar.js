@@ -61,7 +61,7 @@ export default class NavExample extends React.Component {
                 Current Projects
               </NavLink> */}
             
-              <NavLink active href="#">
+              <NavLink active href="/contact">
                 Contact
               </NavLink>
             

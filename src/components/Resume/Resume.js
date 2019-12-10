@@ -16,13 +16,21 @@ class Resume extends Component {
         return (
             <React.Fragment>
                 <header>
-                <h1 align="center">Enrique Galindo</h1>
-                <hr></hr>
-                <p align="center">
-                    egalindo@protonmail.com • 
-                    <a className="link" href="https://github.com/EnriqueGalindo"> github.com/EnriqueGalindo</a> • 
+                    <Card >
+
+                        <CardBody >
+
+
+                            <h1 align="center">Enrique Galindo</h1>
+                            <hr></hr>
+                            <p align="center">
+                                egalindo@protonmail.com •
+                    <a className="link" href="https://github.com/EnriqueGalindo"> github.com/EnriqueGalindo</a> •
                     <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/"> EnriqueGalindo/linkedin</a>
-                </p>
+                            </p>
+                        </CardBody>
+                    </Card>
+
                 </header>
                 <Navbar></Navbar>
                 <div id="wholeThang">

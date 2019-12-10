@@ -6,6 +6,7 @@ import "./App.css";
 
 import {Main} from "./components";
 import {Resume} from "./components";
+import {Contact} from "./components";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <React.Fragment>
         <Route exact path="/" component={Main} />
         <Route exact path="/resume" component={Resume} />
+        <Route exact path="/contact" component={Contact} />
       </React.Fragment>
       
     );

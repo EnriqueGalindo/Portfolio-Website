@@ -12,7 +12,8 @@
     "redux": "^4.0.4",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "shards-react": "^1.0.3"
+    "shards-react": "^1.0.3",
+    "svgo": "1.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
