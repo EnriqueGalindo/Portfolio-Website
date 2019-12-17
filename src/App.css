@@ -18,7 +18,7 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #60747C;
 }
 
 /* this is the beginning of the styling of the banner on the main page */
@@ -59,7 +59,7 @@
 
 /* this is the beginning of the styling of the navbar in the Navbar component */
 #navShape {
-  background-color: #F8A59E;
+  background-color: #B8B8AA;
   border-radius: 0px 0px 15px 15px;
 }
 
@@ -75,7 +75,8 @@
 }
 
 #aboutCardBodyStyle {
-  background-color: #A6DBD7; 
+  background-color: #60747C; 
+  color: white;
   border-radius: 10px
 }
 
@@ -85,8 +86,9 @@
 }
 
 #jobBoxCardBodyStyle {
-  background-color: #A6DBD7; 
-  border-radius: 10px
+  background-color: #60747C; 
+  border-radius: 10px;
+  color: white
 }
 
 #wholeThang {
@@ -109,9 +111,10 @@
   width: 30%; 
 }
 .aboutCardBodyStyle{
-  background-color: #A6DBD7; 
+  background-color: #60747C; 
   border-radius: 10px;
   padding: 10px;
+  color: white
 }
 .aboutCardStyle {
   margin: 10px;

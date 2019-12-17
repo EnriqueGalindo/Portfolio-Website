@@ -16,16 +16,18 @@ export default function CardBodyTitleSubtitleExample() {
             Kenzie Academy   |  Indianapolis  |  11/2019 - Now
             <ul>
                 <li>
-                    Working with students to teach them Javascript, HTML, CSS,
-                    and creating React Web Apps
+                 Mentoring new students and earlier cohorts on how to navigate
+                 the school curriculum and master the material. 
+
                 </li>
                 <li>
                     Teaching students best practices and various technologies
                     to make clear and readable code
                 </li>
                 <li>
-                    Learn to interact with students remotely and provide the 
-                    same level of instruction regardless of location
+                    Coordinating with students remotely while still providing 
+                    the same level of instruction regardless of location
+
                 </li>
             </ul>
         </p>
@@ -35,12 +37,11 @@ export default function CardBodyTitleSubtitleExample() {
             IUPUI   |  Indianapolis  |  11/2016 - Now
             <ul>
                 <li>
-                    Tutoring students in math of all levels required to get a minor
-                    in math at IUPUI
+                    Tutoring MATH 26600 (Ordinary Differential Equations), MATH 26100(Multivariate Calculus),
+                    MATH 17100(Multidimensional Mathematics), MATH 16600(Calculus 2), MATH 16500(Calculus 1)
                 </li>
                 <li>
-                    Teaching collaboratively in an open environment with a traffic of
-                    over 200 students per day
+                    Teaching collaboratively in an open environment with a traffic of 200+ students per day
                 </li>
             </ul>
         </p>

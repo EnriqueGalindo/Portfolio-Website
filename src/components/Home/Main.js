@@ -13,22 +13,39 @@ class Main extends Component {
     render() {
         return (
             <React.Fragment>
-                {/* //this div is the background of the whole site */}
+                <header>
+                    <Card >
+
+                        <CardBody >
+
+
+                            <h1 align="center">Enrique Galindo</h1>
+                            <hr></hr>
+                            <p align="center">
+                                egalindo@protonmail.com •
+                    <a className="link" href="https://github.com/EnriqueGalindo"> github.com/EnriqueGalindo</a> •
+                    <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/"> EnriqueGalindo/linkedin</a>
+                            </p>
+                        </CardBody>
+                    </Card>
+
+                </header>
+                {/* //this div is the background of the whole site
                 <div className="main-background">
 
                     {/* //this is the banner card */}
-                    <Card id="banner">
+                    {/* <Card id="banner"> */}
 
                         {/* //this is the container that holds the mugshot and my name */}
-                        <CardBody id="banner-container">
+                        {/* <CardBody id="banner-container"> */}
 
                             {/* //this is my headshot */}
-                            <Mugshot></Mugshot>
+                            {/* <Mugshot></Mugshot> */}
 
                             {/* //this is my name */}
-                            <h1 id="nameStyle">Enrique Galindo</h1>
+                            {/* <h1 id="nameStyle">Enrique Galindo</h1>
                         </CardBody>
-                    </Card>
+                    </Card> */} */}
 
                     {/* //this is the navigation bar */}
                     <Navbar></Navbar>
@@ -49,7 +66,7 @@ class Main extends Component {
                     <div>
                         {/* <Article></Article> */}
                     </div>
-                </div>
+                
             </React.Fragment>
         )
     }
