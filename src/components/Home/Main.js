@@ -45,7 +45,7 @@ class Main extends Component {
                             {/* //this is my name */}
                             {/* <h1 id="nameStyle">Enrique Galindo</h1>
                         </CardBody>
-                    </Card> */} */}
+                    </Card> */} 
 
                     {/* //this is the navigation bar */}
                     <Navbar></Navbar>
