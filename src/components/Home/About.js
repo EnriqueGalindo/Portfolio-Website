@@ -10,9 +10,9 @@ export default function CardBodyTitleSubtitleExample() {
       <CardBody id="aboutCardBodyStyle">
         <CardTitle>About</CardTitle>
         <CardSubtitle>Last Update: December 2019</CardSubtitle>
-        <p>Born in Bloomington Indiana on November 7, 1996
+        <p>Born in Bloomington Indiana
           <br></br>
-          I love to pursue what peaks my curiosity with everything I've got
+          I love to pursue what pique my curiosity with everything I've got
            <br></br>
           I have been learning and practicing programming since 2016
           </p>
