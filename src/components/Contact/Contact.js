@@ -12,24 +12,22 @@ class Contact extends Component {
     render() {
         return (
             <React.Fragment>
-                <header>
-                    <Card >
-
+              <Card id="headerCard">
                         <CardBody >
-
-
-                            <h1 align="center">Enrique Galindo</h1>
-                            <hr></hr>
-                            <p align="center">
-                                egalindo@protonmail.com •
-                    <a className="link" href="https://github.com/EnriqueGalindo"> github.com/EnriqueGalindo</a> •
-                    <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/"> EnriqueGalindo/linkedin</a>
-                            </p>
-                        </CardBody>
+                            <div >
+                                <br></br>
+                                <h1 align="center" style={{ color: "white" }}>Enrique Galindo</h1>
+                                <hr></hr>
+                                <p align="center" style={{ color: "white" }}>
+                                    egalindo@protonmail.com •
+                    <a className="link" href="https://github.com/EnriqueGalindo" style={{ color: "white" }}> github.com/EnriqueGalindo</a> •
+                    <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/" style={{ color: "white" }}> EnriqueGalindo/linkedin</a>
+                                </p>
+                                {/* //this is the navigation bar */}
+                                <Navbar></Navbar>
+                            </div>
+                        </CardBody>   
                     </Card>
-
-                </header>
-                <Navbar></Navbar>
                 <div id="contact">
                     <Card className="contactCardStyle">
                         <CardBody className="aboutCardBodyStyle">

@@ -30,6 +30,11 @@
    height: 100vh;
    width: 100vw;
 }
+#headerCard{
+  background-image: url("potential_banner.jpg");
+  border-radius: 0;
+  height: 50%;
+}
 
 #banner {
   width: 100%;
@@ -55,10 +60,8 @@
   justify-content: center;
 }
 #tweetBox {
-  margin: 10px;
-  
-}
-#tweetBoxBody {
+  margin: 5px;
+  border-radius: 5px
   
 }
 /* this is the beginning of the styling of the body on the main page */
@@ -71,7 +74,7 @@
 
 /* this is the beginning of the styling of the navbar in the Navbar component */
 #navShape {
-  background-color: #34495E;
+  background-color: none;
   border-radius: 0px 0px 15px 15px;
 }
 

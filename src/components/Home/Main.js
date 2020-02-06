@@ -12,51 +12,47 @@ class Main extends Component {
     render() {
         return (
             <React.Fragment>
-                <header>
-                    <Card >
-
+                    <Card id="headerCard">
                         <CardBody >
-
-
-                            <h1 align="center">Enrique Galindo</h1>
-                            <hr></hr>
-                            <p align="center">
-                                egalindo@protonmail.com •
-                    <a className="link" href="https://github.com/EnriqueGalindo"> github.com/EnriqueGalindo</a> •
-                    <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/"> EnriqueGalindo/linkedin</a>
-                            </p>
-                        </CardBody>
+                            <div >
+                                <br></br>
+                                <h1 align="center" style={{ color: "white" }}>Enrique Galindo</h1>
+                                <hr></hr>
+                                <p align="center" style={{ color: "white" }}>
+                                    egalindo@protonmail.com •
+                    <a className="link" href="https://github.com/EnriqueGalindo" style={{ color: "white" }}> github.com/EnriqueGalindo</a> •
+                    <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/" style={{ color: "white" }}> EnriqueGalindo/linkedin</a>
+                                </p>
+                                {/* //this is the navigation bar */}
+                                <Navbar></Navbar>
+                            </div>
+                        </CardBody>   
                     </Card>
-
-                </header>
-
-                {/* //this is the navigation bar */}
-                <Navbar></Navbar>
 
                 {/* //this puts a break between the banner/navbar and the body of the page */}
                 <br></br>
                 <div id="fullBody">
-                {/* //this div contains the body */}
-                <div id="bodyStyle">
+                    {/* //this div contains the body */}
+                    <div id="bodyStyle">
 
-                    {/* //this is th About component */}
-                    <About></About>
+                        {/* //this is th About component */}
+                        <About></About>
 
-                    {/* //this is the JobBox component */}
-                    <JobBox></JobBox>
-                </div>
-                <br></br>
-                <div id="tweetBox">
-                <Card id="tweetBox">
-                    <CardBody id="tweetBoxBody">
-                    <TwitterTimelineEmbed
-                        sourceType="profile"
-                        screenName="Enrique26538802"
-                        options={{ height: 500 }}
-                    />
-                    </CardBody>
-                </Card>
-                </div>
+                        {/* //this is the JobBox component */}
+                        <JobBox></JobBox>
+                    </div>
+                    <br></br>
+                    <div id="tweetBox">
+                        <Card id="tweetBox">
+                            <CardBody id="tweetBoxBody">
+                                <TwitterTimelineEmbed
+                                    sourceType="profile"
+                                    screenName="Enrique26538802"
+                                    options={{ height: 500 }}
+                                />
+                            </CardBody>
+                        </Card>
+                    </div>
                 </div>
 
             </React.Fragment>

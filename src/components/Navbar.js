@@ -5,7 +5,8 @@ import {
   Nav,
   NavItem,
   NavLink,
-  Collapse
+  Collapse,
+  Button
 } from "shards-react";
 
 export default class NavExample extends React.Component {
@@ -41,30 +42,33 @@ export default class NavExample extends React.Component {
 
   render() {
     return (
-      <Navbar type="dark"  expand="md" id="navShape">
+      <Navbar type="dark" expand="md" id="navShape">
         <NavbarToggler onClick={this.toggleNavbar} />
 
         <Collapse open={this.state.collapseOpen} navbar id="navStyle" >
           <Nav navbar >
-          <NavLink active href="/">
+            <Button outline pill theme="secondary">
+              <NavLink active href="/">
                 Main
               </NavLink>
+            </Button>
+            <Button outline pill theme="secondary">
               <NavLink active href="/resume">
                 Resume
               </NavLink>
-            
-              {/* <NavLink active href="#">
+            </Button>
+            {/* <NavLink active href="#">
                 Past Topics
               </NavLink>
            
               <NavLink active href="#">
                 Current Projects
               </NavLink> */}
-            
+            <Button outline pill theme="secondary">
               <NavLink active href="/contact">
                 Contact
               </NavLink>
-            
+            </Button>
           </Nav>
 
         </Collapse>
