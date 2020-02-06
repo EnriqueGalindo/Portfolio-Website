@@ -50,11 +50,23 @@
 #nameStyle {
   margin: auto;
 }
-
+#fullBody{
+  display: flex;
+  justify-content: center;
+}
+#tweetBox {
+  margin: 10px;
+  
+}
+#tweetBoxBody {
+  
+}
 /* this is the beginning of the styling of the body on the main page */
 #bodyStyle {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%
 }
 
 /* this is the beginning of the styling of the navbar in the Navbar component */
@@ -71,24 +83,25 @@
 
 /* this is the beginning of the sytling of the about component */
 #aboutCardStyle {
-  width: 45%
+  
 }
 
 #aboutCardBodyStyle {
   background-color: white; 
   color: gray;
-  border-radius: 10px
+  border-radius: 10px;
+  justify-content: center !important;
 }
 
 /* this is the beginning of the styling of the JobBox component */
 #jobBoxCardStyle {
-  width: 45%
+
 }
 
 #jobBoxCardBodyStyle {
   background-color: white; 
   border-radius: 10px;
-  color: gray
+  color: gray;
 }
 
 #wholeThang {
@@ -112,9 +125,9 @@
 }
 .aboutCardBodyStyle{
   background-color: white; 
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding: 10px;
-  color: gray
+  color: gray;
 }
 .aboutCardStyle {
   margin: 10px;

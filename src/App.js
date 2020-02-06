@@ -15,9 +15,8 @@ class App extends Component {
         <Route exact path="/" component={Main} />
         <Route exact path="/resume" component={Resume} />
         <Route exact path="/contact" component={Contact} />
-      </React.Fragment>
-      
-    );
+      </React.Fragment>     
+    )
   }
 }
 

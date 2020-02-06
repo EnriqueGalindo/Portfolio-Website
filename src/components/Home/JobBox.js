@@ -6,13 +6,12 @@ import "shards-ui/dist/css/shards.min.css"
 
 export default function CardBodyTitleSubtitleExample() {
   return (
-    <Card id="jobBoxCardStyle">
+    <div id="jobBoxCardStyle">
+    {/* <Card id="jobBoxCardStyle"> */}
       <CardBody id="jobBoxCardBodyStyle">
         <CardTitle>Actively Searching for a Job</CardTitle>
-        <p>
         While having all of these is not expected, these are just some features
         that would be good to find in a job.
-        </p>
         <p>
         <strong>Work Environment:</strong> Mentorship Focused, Equality Driven, Group Mindset, Diverse
         <br></br>
@@ -24,6 +23,7 @@ export default function CardBodyTitleSubtitleExample() {
         <strong>Sectors of Interest:</strong> Start-Ups, Tech, Software
         </p>
       </CardBody>
-    </Card>
+    {/* </Card> */}
+    </div>
   );
 }
