@@ -76,6 +76,7 @@
 #navShape {
   background-color: none;
   border-radius: 0px 0px 15px 15px;
+  
 }
 
 #navStyle {
@@ -85,9 +86,7 @@
 }
 
 /* this is the beginning of the sytling of the about component */
-#aboutCardStyle {
-  
-}
+
 
 #aboutCardBodyStyle {
   background-color: white; 
@@ -97,9 +96,6 @@
 }
 
 /* this is the beginning of the styling of the JobBox component */
-#jobBoxCardStyle {
-
-}
 
 #jobBoxCardBodyStyle {
   background-color: white; 

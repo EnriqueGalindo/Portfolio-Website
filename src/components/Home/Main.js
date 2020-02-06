@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import About from "./About";
 import JobBox from "./JobBox";
-import Navbar from "../Navbar";
+import Colapse from "../Colapse";
 import { Card, CardBody } from "shards-react";
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
@@ -16,6 +16,7 @@ class Main extends Component {
                         <CardBody >
                             <div >
                                 <br></br>
+                                <br></br>
                                 <h1 align="center" style={{ color: "white" }}>Enrique Galindo</h1>
                                 <hr></hr>
                                 <p align="center" style={{ color: "white" }}>
@@ -23,14 +24,16 @@ class Main extends Component {
                     <a className="link" href="https://github.com/EnriqueGalindo" style={{ color: "white" }}> github.com/EnriqueGalindo</a> •
                     <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/" style={{ color: "white" }}> EnriqueGalindo/linkedin</a>
                                 </p>
-                                {/* //this is the navigation bar */}
-                                <Navbar></Navbar>
+                                <br></br>
+                                
                             </div>
                         </CardBody>   
                     </Card>
 
                 {/* //this puts a break between the banner/navbar and the body of the page */}
                 <br></br>
+                    <Colapse></Colapse>
+                    <hr></hr>
                 <div id="fullBody">
                     {/* //this div contains the body */}
                     <div id="bodyStyle">

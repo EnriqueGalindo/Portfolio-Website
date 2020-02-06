@@ -47,12 +47,12 @@ export default class NavExample extends React.Component {
 
         <Collapse open={this.state.collapseOpen} navbar id="navStyle" >
           <Nav navbar >
-            <Button outline pill theme="secondary">
+            <Button theme="secondary" style={{margin: "20px"}}>
               <NavLink active href="/">
                 Main
               </NavLink>
             </Button>
-            <Button outline pill theme="secondary">
+            <Button theme="secondary" style={{margin: "20px"}}>
               <NavLink active href="/resume">
                 Resume
               </NavLink>
@@ -64,7 +64,7 @@ export default class NavExample extends React.Component {
               <NavLink active href="#">
                 Current Projects
               </NavLink> */}
-            <Button outline pill theme="secondary">
+            <Button theme="secondary" style={{margin: "20px"}}>
               <NavLink active href="/contact">
                 Contact
               </NavLink>
