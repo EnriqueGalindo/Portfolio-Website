@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Colapse from "../Colapse"
+import Navbar from "../Navbar"
 import TextArea from "./TextArea"
-import { Form, FormInput, FormGroup } from "shards-react";
+import { Form, FormInput, FormGroup, Navbar } from "shards-react";
 import { Card, CardBody } from "shards-react";
 import { Button } from "shards-react";
 
@@ -31,9 +31,7 @@ class Contact extends Component {
                     </Card>
 
                 {/* //this puts a break between the banner/navbar and the body of the page */}
-                <br></br>
-                    <Colapse></Colapse>
-                    <hr></hr>
+                    <Navbar></Navbar>
                 <div id="contact">
                     <Card className="contactCardStyle">
                         <CardBody className="aboutCardBodyStyle">
