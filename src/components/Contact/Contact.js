@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar"
 import TextArea from "./TextArea"
-import { Form, FormInput, FormGroup, Navbar } from "shards-react";
+import { Form, FormInput, FormGroup } from "shards-react";
 import { Card, CardBody } from "shards-react";
 import { Button } from "shards-react";
 
