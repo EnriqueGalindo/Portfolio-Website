@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Colapse from "../Colapse"
+import Navbar from "../Navbar"
 import Experience from "./Experience"
 import Courses from "./Courses"
 import Projects from "./Projects"
@@ -36,9 +36,7 @@ class Resume extends Component {
                 </Card>
 
                 {/* //this puts a break between the banner/navbar and the body of the page */}
-                <br></br>
-                <Colapse></Colapse>
-                <hr></hr>
+                <Navbar></Navbar>
                 <div id="wholeThang">
                     <div id="column1">
                         <Experience></Experience>

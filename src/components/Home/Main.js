@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import About from "./About";
 import JobBox from "./JobBox";
-import Colapse from "../Colapse";
+import Navbar from "../Navbar";
 import { Card, CardBody } from "shards-react";
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
@@ -31,9 +31,7 @@ class Main extends Component {
                     </Card>
 
                 {/* //this puts a break between the banner/navbar and the body of the page */}
-                <br></br>
-                    <Colapse></Colapse>
-                    <hr></hr>
+                    <Navbar></Navbar>
                 <div id="fullBody">
                     {/* //this div contains the body */}
                     <div id="bodyStyle">
