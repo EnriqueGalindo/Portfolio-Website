@@ -30,7 +30,7 @@ class Resume extends Component {
                     <a className="link" href="https://www.linkedin.com/in/enrique-galindo-5970ab159/" style={{ color: "white" }}> EnriqueGalindo/linkedin</a>
                             </p>
                             <br></br>
-
+                            Photo by Hunter James on Unsplash
                         </div>
                     </CardBody>
                 </Card>
