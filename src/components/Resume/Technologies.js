@@ -6,7 +6,8 @@ import "shards-ui/dist/css/shards.min.css";
 
 export default function CardBodyTitleSubtitleExample() {
   return (
-    <Card className="aboutCardStyle">
+    <div>
+    {/* <Card className="aboutCardStyle"> */}
       <CardBody className="aboutCardBodyStyle">
         <CardTitle>Technologies</CardTitle>
         <CardSubtitle>Last Update: December 2019</CardSubtitle>
@@ -29,6 +30,7 @@ export default function CardBodyTitleSubtitleExample() {
             </ul>
         </p>
         </CardBody>
-    </Card>
+    {/* </Card> */}
+    </div>
   );
 }

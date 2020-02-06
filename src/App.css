@@ -90,7 +90,7 @@
 
 #aboutCardBodyStyle {
   background-color: white; 
-  color: gray;
+  color: black;
   border-radius: 10px;
   justify-content: center !important;
 }
@@ -100,7 +100,7 @@
 #jobBoxCardBodyStyle {
   background-color: white; 
   border-radius: 10px;
-  color: gray;
+  color: black;
 }
 
 #wholeThang {
@@ -126,7 +126,7 @@
   background-color: white; 
   /* border-radius: 10px; */
   padding: 10px;
-  color: gray;
+  color: black;
 }
 .aboutCardStyle {
   margin: 10px;
