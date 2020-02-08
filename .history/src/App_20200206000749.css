@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #60747C;
+}
+
+/* this is the beginning of the styling of the banner on the main page */
+.main-background {
+  /* background-color: #787777; */
+  position: absolute;
+   top: 0; 
+   left: 0;
+   height: 100vh;
+   width: 100vw;
+}
+
+#banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 15px 15px 0px 0px;
+  padding-bottom: 25px;
+}
+
+#banner-container {
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+  
+}
+
+#nameStyle {
+  margin: auto;
+}
+#fullBody{
+  display: flex;
+  justify-content: center;
+}
+/* this is the beginning of the styling of the body on the main page */
+#bodyStyle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 30%
+}
+
+/* this is the beginning of the styling of the navbar in the Navbar component */
+#navShape {
+  background-color: #34495E;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#navStyle {
+  display: flex !important;
+  justify-content: center !important; 
+
+}
+
+/* this is the beginning of the sytling of the about component */
+#aboutCardStyle {
+  
+}
+
+#aboutCardBodyStyle {
+  background-color: white; 
+  color: gray;
+  border-radius: 10px;
+  justify-content: center !important;
+}
+
+/* this is the beginning of the styling of the JobBox component */
+#jobBoxCardStyle {
+  width: 45%
+}
+
+#jobBoxCardBodyStyle {
+  background-color: white; 
+  border-radius: 10px;
+  color: gray;
+}
+
+#wholeThang {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  /* background-color: #787777; */
+}
+#column1 {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 60%;
+}
+
+#column2{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 30%; 
+}
+.aboutCardBodyStyle{
+  background-color: white; 
+  /* border-radius: 10px; */
+  padding: 10px;
+  color: gray;
+}
+.aboutCardStyle {
+  margin: 10px;
+}
+.link {
+ color: grey;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  
+}
+#contact {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  
+}
+
+.contactCardStyle {
+  width: 50%;
+  margin: 30px;
+}
+.btn {
+  margin-top: 10px;
+}
