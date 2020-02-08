@@ -94,16 +94,14 @@ class Contact extends Component {
                                     />
                                 </FormGroup>
                                 <FormGroup>
-                                    <label htmlFor="#testArea">Message</label>
-                                    <FormTextarea
-                                        id="#name"
-                                        type="text"
-                                        name="message"
-                                        onChange={this.updateInput}
-                                        value={this.state.message}
-                                        required
-                                    />
-                                </FormGroup>
+                                <FormTextarea
+                                    id="#name"
+                                    type="text"
+                                    name="message"
+                                    onChange={this.updateInput}
+                                    value={this.state.message}
+                                    required
+                                />
                                 <Button type="submit" outline pill theme="secondary">
                                     Submit
                                 </Button>
