@@ -13,7 +13,7 @@ export default function CardBodyTitleSubtitleExample() {
         <CardSubtitle>Last Update: December 2019</CardSubtitle>
           Born in Bloomington Indiana
           <br></br>
-          I love to pursue what pique my curiosity with everything I've got
+          I love to pursue what piques my curiosity with everything I've got
            <br></br>
           I have been learning and practicing programming since 2016
           <br></br>
