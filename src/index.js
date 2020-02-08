@@ -6,6 +6,7 @@ import App from "./App";
 import "./index.css";
 import configureStore, { history } from "./configureStore";
 import { ConnectedRouter } from "connected-react-router";
+import './components/Firebase'
 
 const store = configureStore({});
 

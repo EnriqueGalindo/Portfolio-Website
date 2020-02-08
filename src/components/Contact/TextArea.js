@@ -19,7 +19,14 @@ export default class BasicFormTextarea extends React.Component {
         <p className="mb-2">
           {(value && `🗣 ${value}`) || "Your message will appear here as you write"}
         </p>
-        <FormTextarea onChange={this.handleChange} />
+        <FormTextarea 
+        id="#name" 
+        type="text"
+        name="message"
+        onChange={this.handleChange}
+        value={this.state.message} 
+        />
+        
       </div>
     );
   }

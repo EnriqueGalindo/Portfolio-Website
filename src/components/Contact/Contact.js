@@ -1,14 +1,48 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar"
 import TextArea from "./TextArea"
-import { Form, FormInput, FormGroup } from "shards-react";
+import { Form, FormInput, FormGroup, FormTextarea } from "shards-react";
 import { Card, CardBody } from "shards-react";
 import { Button } from "shards-react";
+import 'firebase/firestore';
+import firebaseApp, {db} from '../Firebase'
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
 
 class Contact extends Component {
+    constructor() {
+        super();
+        this.state = {
+         email: "",
+         fullname: "",
+         message: ""
+        };
+      }
+
+      updateInput = e => {
+        this.setState({
+          [e.target.name]: e.target.value
+        });
+      }
+
+      addUser = e => {
+        e.preventDefault();
+        db.settings({
+          timestampsInSnapshots: true
+        });
+        const userRef = db.collection("users").add({
+          fullname: this.state.fullname,
+          email: this.state.email,
+          message: this.state.message
+        });  
+        this.setState({
+          fullname: "",
+          email: "",
+          message: ""
+        });
+      };
+
     render() {
         return (
             <React.Fragment>
@@ -35,20 +69,42 @@ class Contact extends Component {
                 <div id="contact">
                     <Card className="contactCardStyle">
                         <CardBody className="aboutCardBodyStyle">
-                            <Form>
+                            <Form onSubmit={this.addUser}>
                                 <FormGroup>
                                     <label htmlFor="#name">Name</label>
-                                    <FormInput id="#name" />
+                                    <FormInput 
+                                    id="#name" 
+                                    type="text"
+                                    name="fullname"
+                                    placeholder="Full name"
+                                    onChange={this.updateInput}
+                                    value={this.state.fullname}
+                                  />
                                 </FormGroup>
                                 <FormGroup>
                                     <label htmlFor="#email">Email</label>
-                                    <FormInput type="email" id="#email" />
+                                    <FormInput
+                                    id="#email"
+                                    type="email"
+                                    name="email"
+                                    placeholder="email"
+                                    onChange={this.updateInput}
+                                    value={this.state.email}
+                                    />
                                 </FormGroup>
-                            </Form>
-                            <TextArea></TextArea>
-                            <Button outline pill theme="secondary">
+                            <FormTextarea
+                            id="#name" 
+                            type="text"
+                            name="message"
+                            onChange={this.updateInput}
+                            value={this.state.message} 
+                            />
+                            {/* <TextArea>
+                            </TextArea> */}
+                            <Button type="submit" outline pill theme="secondary">
                                 Submit
                         </Button>
+                        </Form>
                         </CardBody>
                     </Card>
                 </div>
