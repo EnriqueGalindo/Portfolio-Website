@@ -4,12 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
-/history
+.history
 # testing
 /coverage
 
 # production
 /build
+Firebase.js
 
 # misc
 .DS_Store
