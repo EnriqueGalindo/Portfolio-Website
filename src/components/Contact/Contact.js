@@ -15,9 +15,27 @@ class Contact extends Component {
         this.state = {
             email: "",
             fullname: "",
-            message: ""
+            message: "",
+            inquiryCount: ""
         };
     }
+    setInquiryCount (){
+        db.collection('users').get().then(data => {
+            if (data.docs){
+                this.setState({
+                inquiryCount: (1 + data.docs.length).toString(16)})
+                }
+            else {
+                this.setState({inquiryCount: "1"})
+            }
+            })
+    }
+    handleSubmit() {
+        this.setInquiryCount()
+    }
+    componentDidMount() {
+        this.setInquiryCount()
+        }
 
     updateInput = e => {
         this.setState({
@@ -30,7 +48,7 @@ class Contact extends Component {
         db.settings({
             timestampsInSnapshots: true
         });
-        const userRef = db.collection("users").add({
+        const userRef = db.collection("users").doc("submission" + this.state.inquiryCount ).set({
             fullname: this.state.fullname,
             email: this.state.email,
             message: this.state.message
@@ -104,7 +122,11 @@ class Contact extends Component {
                                         required
                                     />
                                 </FormGroup>
-                                <Button type="submit" outline pill theme="secondary">
+                                <Button 
+                                type="submit" 
+                                outline pill theme="secondary" 
+                                onSubmit={this.handleSubmit()}
+                                >
                                     Submit
                                 </Button>
                             </Form>
